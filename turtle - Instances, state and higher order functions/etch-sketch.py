@@ -12,6 +12,9 @@ def left():
     tim.left(10)
 def clear():
     tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
 
 screen.listen()
 
