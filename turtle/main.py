@@ -62,14 +62,14 @@ def random_color():
 
 # final challenge
 
-tim.speed(100)
-directions = [0,90,180,270]
-n=0
-while True:
-    tim.color(random_color())
-    tim.circle(60)
-    tim.setheading(n)
-    n+=10
-    print(n)
+# tim.speed(100)
+# directions = [0,90,180,270]
+# n=0
+# while True:
+#     tim.color(random_color())
+#     tim.circle(60)
+#     tim.setheading(n)
+#     n+=10
+#     print(n)
 
 screen.exitonclick()
